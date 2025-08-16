@@ -1,0 +1,24 @@
+خطوات التشغيل
+.1 استنساخ المشروع
+Bash
+git clone <repository-url>
+cd ai-crypto-mining
+.1 إنشاء البيئة االفتراضية
+Bash
+python -m venv venv
+source venv/bin/activate # Linux/Mac
+أو #
+venv\Scripts\activate # Windows
+.1 تثبيت المتطلبات
+Bash
+pip install -r requirements.txt
+.1 تشغيل التطبيق
+Bash
+python src/main.py
+.1 فتح المتصفح
+Plain Text
+http://localhost:5000
+االختبار
+تشغيل نظام االختبار الشامل:
+Bash
+python test_system.py
